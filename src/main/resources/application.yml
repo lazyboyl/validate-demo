@@ -1,0 +1,6 @@
+swagger:
+  title: 接口验证的专用
+  base-package: com.validate.demo.controller
+  contact:
+    name: 林泽锋
+    email: 282245889@qq.com
