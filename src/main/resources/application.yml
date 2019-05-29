@@ -1,6 +1,6 @@
 swagger:
-  title: ½Ó¿ÚÑéÖ¤µÄ×¨ÓÃ
+  title: æ¥å£çº§çš„éªŒè¯DEMOä¾‹å­
   base-package: com.validate.demo.controller
   contact:
-    name: ÁÖÔó·æ
+    name: æ—æ³½é”‹
     email: 282245889@qq.com

@@ -1,10 +1,15 @@
 package com.validate.demo.constant;
 
+/**
+ * @author linzf
+ * @since 2019-05-29
+ * 类描述：正则验证的静态类
+ */
 public class ValidatePatternConstants {
 
     /**
-     * 验证日期的正则表达式
+     * 电话的验证
      */
-    public final static String PATTERN_DATE = "^((?!0000)[0-9]{4} -((0[1-9]|1[0-2]) -(0[1-9]|1[0-9]|2[0-8]) |(0[13-9]|1[0-2]) -(29|30) |(0[13578]|1[02]) -31 )|([0-9]{2}(0[48]|[2468][048]|[13579][26])|(0[48]|[2468][048]|[13579][26])00) -02 -29)$";
+    public final static String PHONE_VALIDATE = "^1(3|4|5|7|8)\\d{9}$";
 
 }

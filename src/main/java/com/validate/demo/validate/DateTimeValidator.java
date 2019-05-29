@@ -4,6 +4,11 @@ import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 import java.text.SimpleDateFormat;
 
+/**
+ * @author linzf
+ * @since 2019-05-29
+ * 类描述：验证日期是否合法的实现类
+ */
 public class DateTimeValidator implements ConstraintValidator<DateTime, String> {
     private DateTime dateTime;
 
